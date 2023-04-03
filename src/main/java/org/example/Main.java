@@ -2,7 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        Book[] books = new ProgrammingBook[5];
+        Book[] books = new ProgrammingBook[10];
         books[0] = new ProgrammingBook(1, "Clean Code", 72.9, " Robert C. Martin", "English", "java");
         books[1] = new ProgrammingBook(2, "Coding Horror", 100, "Jeff Atwood", "English", "java");
         books[2] = new ProgrammingBook(3, "Introduction to Algorithms", 70, "Thomas H. Cormen", "English", "java");
